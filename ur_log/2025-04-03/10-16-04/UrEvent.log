@@ -1,0 +1,6 @@
+2025-04-03 10:17:20,956 - urbasic_realTimeClientEvent - ERROR - SendProgram: Safety Stop
+2025-04-03 10:17:21,208 - urbasic_realTimeClientEvent - ERROR - SendProgram: Safety Stop
+2025-04-03 10:17:21,275 - urbasic_rtdeEvent - ERROR - Lost some RTDE at 2549.913 - 10.000000000218279 milliseconds since last package
+2025-04-03 10:17:22,917 - urbasic_realTimeClientEvent - ERROR - SendProgram: Safety Stop
+2025-04-03 10:17:55,188 - urbasic_rtdeEvent - ERROR - Lost some RTDE at 2583.826 - 10.000000000218279 milliseconds since last package
+2025-04-03 10:18:01,316 - urbasic_rtdeEvent - ERROR - Lost some RTDE at 2589.9539999999997 - 5623.999999999796 milliseconds since last package

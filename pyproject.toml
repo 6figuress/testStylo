@@ -1,0 +1,21 @@
+[project]
+name = "phys_sim"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "ikfast",
+    "numpy>=2.2.4",
+    "pybullet>=3.2.7",
+    "simulator",
+    "urbasic",
+]
+
+[tool.uv.sources]
+simulator = { git = "https://github.com/6figuress/phys_simulator.git" }
+ikfast = { git = "https://github.com/6figuress/ur3e-ik.git", rev = "modified_urdfs" }
+urbasic = { git = "https://github.com/6figuress/ur3e-control.git" }
+
+[dependency-groups]
+dev = [
+    "ipdb>=0.13.13",
+]
