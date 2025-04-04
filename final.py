@@ -195,20 +195,7 @@ if __name__ == "__main__":
         for a in traj:
             iscoin.robot_control.movej(Joint6D.createFromRadList(a), a=speed, v=acc)
 
-    test.pickPen(colors["green"])
-    test.pickPen(colors["purple"])
-    test.pickPen(colors["white"])
-    test.pickPen(colors["blue"])
-    test.pickPen(colors["black"])
-    test.pickPen(colors["pink"])
     test.pickPen(colors["red"])
-    test.pickPen(colors["cyan"])
-
-    import ipdb
-
-    ipdb.set_trace()
-
-    test.pickPen(colors["green"])
 
     executeTraj(lines_trajectories[0])
 
@@ -220,7 +207,7 @@ if __name__ == "__main__":
 
     executeTraj(lines_trajectories[2])
 
-    test.switchPen(colors["white"])
+    test.switchPen(colors["cyan"])
 
     executeTraj(lines_trajectories[3])
 
